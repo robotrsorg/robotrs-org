@@ -1,0 +1,10 @@
+[workspace]
+authors = ["Joe McMahon <jmcmahon443@gmail.com>"]
+channels = ["conda-forge"]
+name = "robotrs-org"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+build = "cargo build"
+start = "cargo run"
